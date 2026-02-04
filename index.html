@@ -1,0 +1,1334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Union of Journalists (India) - NUJ India</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&family=Work+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery - NUJ(I)</title>
+    <link rel="stylesheet" href="gallery-styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizontal Image Scroller</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizontal Image Scroller</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Layout - Three Column Design</title>
+</head>
+
+<body>
+
+    <!-- COMPONENT: Top Bar -->
+    <div class="top-bar">
+        <div class="top-bar-content">
+
+            <!-- LEFT: SOCIAL MEDIA ICONS -->
+            <div class="top-bar-left social-icons">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+            </div>
+
+            <!-- RIGHT: LINKS -->
+            <div class="top-bar-right">
+                <a href="publications.php" class="top-bar-link">
+                    <i class="fas fa-book"></i> Publications
+                </a>
+                <a href="subscribe.php" class="top-bar-link">
+                    <i class="fas fa-envelope"></i> Subscribe Newsletter
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- COMPONENT: Affiliation Strip -->
+    <!-- <div class="affiliation">
+        AFFILIATED TO INTERNATIONAL FEDERATION OF JOURNALISTS (IFJ), BRUSSELS, BELGIUM
+    </div> -->
+
+    <!-- COMPONENT: Header -->
+    <header class="header" id="header">
+        <div class="header-content">
+            <div class="logo">
+                <img src="images/1769686647975_image.png" alt="NUJ India Logo" style="height: 80px;">
+                <div class="logo-text">
+                    <h1>National Union of Journalists (India)</h1>
+                    <p>Affiliated with International Federation of Journalists, Brussels</p>
+                </div>
+            </div>
+
+            <button class="mobile-menu-toggle" id="menuToggle">☰</button>
+        </div>
+    </header>
+    <!-- COMPONENT: Navigation (Megamenu) -->
+    <section class="organization-strip nav-strip">
+        <div class="org-container">
+            <nav class="main-nav" aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li><a href="index.php">HOME</a></li>
+                    <li><a href="about_us.php">INTRODUCTION</a></li>
+                    <li class="has-dropdown">
+                        <a href="office_bearers.php">OFFICE BEARERS <span class="nav-icon"
+                                aria-hidden="true">+</span></a>
+                        <div class="megamenu">
+                            <div class="megamenu-inner">
+                                <div class="megamenu-column">
+                                    <ul class="megamenu-links">
+                                        <li><a href="president.php">PRESIDENT</a></li>
+                                        <li><a href="sec_gen.php">SECRETARY GENERAL</a></li>
+                                        <li><a href="treasurer.php">TREASURER</a></li>
+                                        <li><a href="vice_president.php">VICE PRESIDENT</a></li>
+                                        <li><a href="secretaries.php">SECRETARIES</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="has-dropdown has-megamenu">
+                        <a href="state_units.php">STATE UNITS <span class="nav-icon" aria-hidden="true">+</span></a>
+                        <div class="megamenu megamenu-two-cols">
+                            <div class="megamenu-inner">
+                                <div class="megamenu-column megamenu-column-zones">
+                                    <ul class="megamenu-links megamenu-zones">
+                                        <li data-zone="east"><a href="zone_east.php">EAST ZONE <span
+                                                    class="nav-icon">+</span></a></li>
+                                        <li data-zone="west"><a href="zone_west.php">WEST ZONE <span
+                                                    class="nav-icon">+</span></a></li>
+                                        <li data-zone="central"><a href="zone_central.php">CENTRAL ZONE <span
+                                                    class="nav-icon">+</span></a></li>
+                                        <li data-zone="south"><a href="zone_south.php">SOUTH ZONE <span
+                                                    class="nav-icon">+</span></a></li>
+                                        <li data-zone="north"><a href="zone_north.php">NORTH ZONE <span
+                                                    class="nav-icon">+</span></a></li>
+                                        <li data-zone="delhi"><a href="zone_delhi.php">DELHI ZONE <span
+                                                    class="nav-icon">+</span></a></li>
+                                        <li data-zone="northeast"><a href="zone_northeast.php">NORTH EAST ZONE <span
+                                                    class="nav-icon">+</span></a></li>
+                                    </ul>
+                                </div>
+                                <div class="megamenu-column megamenu-column-panels">
+                                    <div class="megamenu-panel megamenu-panel-east" data-panel="east">
+                                        <ul class="megamenu-links megamenu-office-bearers">
+                                            <li><a href="president.php">PRESIDENT</a></li>
+                                            <li><a href="sec_gen.php">SECRETARY GENERAL</a></li>
+                                            <li><a href="treasurer.php">TREASURER</a></li>
+                                            <li><a href="vice_president.php">VICE PRESIDENT</a></li>
+                                            <li><a href="secretaries.php">SECRETARIES</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="megamenu-panel megamenu-panel-west" data-panel="west">
+                                        <ul class="megamenu-links">
+                                            <li><a href="zone_west.php#maharashtra">MAHARASHTRA</a></li>
+                                            <li><a href="zone_west.php#gujarat">GUJARAT</a></li>
+                                            <li><a href="zone_west.php#goa">GOA</a></li>
+                                            <li><a href="zone_west.php#rajasthan">RAJASTHAN</a></li>
+                                            <li><a href="zone_west.php">VIEW ALL WEST ZONE →</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="megamenu-panel megamenu-panel-central" data-panel="central">
+                                        <ul class="megamenu-links">
+                                            <li><a href="zone_central.php#mp">MADHYA PRADESH</a></li>
+                                            <li><a href="zone_central.php#chhattisgarh">CHHATTISGARH</a></li>
+                                            <li><a href="zone_central.php#up">UTTAR PRADESH</a></li>
+                                            <li><a href="zone_central.php#uttarakhand">UTTARAKHAND</a></li>
+                                            <li><a href="zone_central.php">VIEW ALL CENTRAL ZONE →</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="megamenu-panel megamenu-panel-south" data-panel="south">
+                                        <ul class="megamenu-links">
+                                            <li><a href="zone_south.php#tamilnadu">TAMIL NADU</a></li>
+                                            <li><a href="zone_south.php#kerala">KERALA</a></li>
+                                            <li><a href="zone_south.php#karnataka">KARNATAKA</a></li>
+                                            <li><a href="zone_south.php#andhra">ANDHRA PRADESH</a></li>
+                                            <li><a href="zone_south.php#telangana">TELANGANA</a></li>
+                                            <li><a href="zone_south.php">VIEW ALL SOUTH ZONE →</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="megamenu-panel megamenu-panel-north" data-panel="north">
+                                        <ul class="megamenu-links">
+                                            <li><a href="zone_north.php#punjab">PUNJAB</a></li>
+                                            <li><a href="zone_north.php#haryana">HARYANA</a></li>
+                                            <li><a href="zone_north.php#himachal">HIMACHAL PRADESH</a></li>
+                                            <li><a href="zone_north.php#jk">JAMMU & KASHMIR</a></li>
+                                            <li><a href="zone_north.php">VIEW ALL NORTH ZONE →</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="megamenu-panel megamenu-panel-delhi" data-panel="delhi">
+                                        <ul class="megamenu-links">
+                                            <li><a href="zone_delhi.php#ncr">NCR UNITS</a></li>
+                                            <li><a href="zone_delhi.php#press">PRESS CLUBS</a></li>
+                                            <li><a href="zone_delhi.php#events">DELHI EVENTS</a></li>
+                                            <li><a href="zone_delhi.php">VIEW ALL DELHI ZONE →</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="megamenu-panel megamenu-panel-northeast" data-panel="northeast">
+                                        <ul class="megamenu-links">
+                                            <li><a href="zone_northeast.php#assam">ASSAM</a></li>
+                                            <li><a href="zone_northeast.php#meghalaya">MEGHALAYA</a></li>
+                                            <li><a href="zone_northeast.php#manipur">MANIPUR</a></li>
+                                            <li><a href="zone_northeast.php#nagaland">NAGALAND</a></li>
+                                            <li><a href="zone_northeast.php#tripura">TRIPURA</a></li>
+                                            <li><a href="zone_northeast.php">VIEW ALL NORTH EAST →</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="state_activities.php">STATE ACTIVITIES <span class="nav-icon"
+                                aria-hidden="true">+</span></a>
+                        <div class="megamenu">
+                            <div class="megamenu-inner">
+                                <div class="megamenu-column">
+                                    <ul class="megamenu-links">
+                                        <li><a href="state_activities.php#events">EVENTS</a></li>
+                                        <li><a href="state_activities.php#workshops">WORKSHOPS</a></li>
+                                        <li><a href="state_activities.php#conventions">CONVENTIONS</a></li>
+                                        <li><a href="state_activities.php#reports">ANNUAL REPORTS</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="nuj_school.php">NUJ SCHOOL <span class="nav-icon" aria-hidden="true">+</span></a>
+                        <div class="megamenu">
+                            <div class="megamenu-inner">
+                                <div class="megamenu-column">
+                                    <ul class="megamenu-links">
+                                        <li><a href="nuj_school.php#courses">COURSES</a></li>
+                                        <li><a href="nuj_school.php#training">TRAINING PROGRAMS</a></li>
+                                        <li><a href="nuj_school.php#ethics">JOURNALISM ETHICS</a></li>
+                                        <li><a href="nuj_school.php#enroll">ENROLL</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="jwf.php">JWF <span class="nav-icon" aria-hidden="true">+</span></a>
+                        <div class="megamenu">
+                            <div class="megamenu-inner">
+                                <div class="megamenu-column">
+                                    <ul class="megamenu-links">
+                                        <li><a href="jwf.php#about">ABOUT JWF</a></li>
+                                        <li><a href="jwf.php#members">MEMBERS</a></li>
+                                        <li><a href="jwf.php#activities">ACTIVITIES</a></li>
+                                        <li><a href="jwf.php#contact">CONTACT</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="contact.php">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <!-- COMPONENT: Mobile Menu (Megamenu style) -->
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="mobile-menu-close" id="menuClose" aria-label="Close menu">×</button>
+        <nav class="mobile-nav" aria-label="Mobile navigation">
+            <ul class="mobile-nav-list">
+                <li><a href="index.php">HOME</a></li>
+                <li><a href="about_us.php">INTRODUCTION</a></li>
+                <li class="mobile-has-sub">
+                    <a href="office_bearers.php">OFFICE BEARERS <span class="mobile-toggle"
+                            aria-hidden="true">+</span></a>
+                    <ul class="mobile-sub">
+                        <li><a href="president.php">President</a></li>
+                        <li><a href="sec_gen.php">Secretary General</a></li>
+                        <li><a href="treasurer.php">Treasurer</a></li>
+                        <li><a href="vice_president.php">Vice President</a></li>
+                        <li><a href="secretaries.php">Secretaries</a></li>
+                    </ul>
+                </li>
+                <li class="mobile-has-sub">
+                    <a href="state_units.php">STATE UNITS <span class="mobile-toggle" aria-hidden="true">+</span></a>
+                    <ul class="mobile-sub">
+                        <li><a href="zone_east.php">East Zone</a></li>
+                        <li><a href="zone_west.php">West Zone</a></li>
+                        <li><a href="zone_central.php">Central Zone</a></li>
+                        <li><a href="zone_south.php">South Zone</a></li>
+                        <li><a href="zone_north.php">North Zone</a></li>
+                        <li><a href="zone_delhi.php">Delhi Zone</a></li>
+                        <li><a href="zone_northeast.php">North East Zone</a></li>
+                        <li class="mobile-sub-divider">Office Bearers</li>
+                        <li><a href="president.php">President</a></li>
+                        <li><a href="sec_gen.php">Secretary General</a></li>
+                        <li><a href="treasurer.php">Treasurer</a></li>
+                        <li><a href="vice_president.php">Vice President</a></li>
+                        <li><a href="secretaries.php">Secretaries</a></li>
+                    </ul>
+                </li>
+                <li class="mobile-has-sub">
+                    <a href="state_activities.php">STATE ACTIVITIES <span class="mobile-toggle"
+                            aria-hidden="true">+</span></a>
+                    <ul class="mobile-sub">
+                        <li><a href="state_activities.php#events">Events</a></li>
+                        <li><a href="state_activities.php#workshops">Workshops</a></li>
+                        <li><a href="state_activities.php#conventions">Conventions</a></li>
+                        <li><a href="state_activities.php#reports">Annual Reports</a></li>
+                    </ul>
+                </li>
+                <li class="mobile-has-sub">
+                    <a href="nuj_school.php">NUJ SCHOOL <span class="mobile-toggle" aria-hidden="true">+</span></a>
+                    <ul class="mobile-sub">
+                        <li><a href="nuj_school.php#courses">Courses</a></li>
+                        <li><a href="nuj_school.php#training">Training Programs</a></li>
+                        <li><a href="nuj_school.php#ethics">Journalism Ethics</a></li>
+                        <li><a href="nuj_school.php#enroll">Enroll</a></li>
+                    </ul>
+                </li>
+                <li class="mobile-has-sub">
+                    <a href="jwf.php">JWF <span class="mobile-toggle" aria-hidden="true">+</span></a>
+                    <ul class="mobile-sub">
+                        <li><a href="jwf.php#about">About JWF</a></li>
+                        <li><a href="jwf.php#members">Members</a></li>
+                        <li><a href="jwf.php#activities">Activities</a></li>
+                        <li><a href="jwf.php#contact">Contact</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.php">CONTACT</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- COMPONENT: Hero -->
+    <!-- <section class="hero">
+        <div class="hero-content">
+            <h2>Defending Truth, Supporting Journalists</h2>
+            <p>The National Union of Journalists (India) stands as the voice of media professionals across the nation, fighting for press freedom, journalists' rights, and ethical journalism.</p>
+            <div class="hero-buttons">
+                <a href="#" class="hero-button hero-button-primary">Join Our Movement</a>
+                <a href="#" class="hero-button hero-button-secondary">Learn More</a>
+            </div>
+        </div>
+    </section> -->
+    <div class="slider-container">
+        <div class="flexslider">
+            <ul class="slides">
+                <li class="active" style="text-align:center">
+                    <img src="./images/1.jpeg" alt="Slide 1" />
+                </li>
+                <li style="text-align:center">
+                    <img src="./images/2.jpeg" alt="Slide 2" />
+                </li>
+                <li style="text-align:center">
+                    <img src="./images/3.jpeg" alt="Slide 3" />
+                </li>
+                <li style="text-align:center">
+                    <img src="./images/4.jpeg" alt="Slide 4" />
+                </li>
+                <li style="text-align:center">
+                    <img src="./images/5.jpeg" alt="Slide 5" />
+                </li>
+                <li style="text-align:center">
+                    <img src="./images/6.jpeg" alt="Slide 6" />
+                </li>
+                <li style="text-align:center">
+                    <img src="./images/7.jpeg" alt="Slide 7" />
+                </li>
+                <li style="text-align:center">
+                    <img src="./images/8.jpeg" alt="Slide 8" />
+                </li>
+            </ul>
+
+            <!-- Navigation Arrows -->
+            <div class="flex-direction-nav">
+                <a href="#" class="flex-prev">
+                    <span>&#10094;</span>
+                </a>
+                <a href="#" class="flex-next">
+                    <span>&#10095;</span>
+                </a>
+            </div>
+
+            <!-- Control Nav (Dots) -->
+            <ol class="flex-control-nav"></ol>
+        </div>
+    </div>
+
+    <!-- COMPONENT: NEWS Section -->
+    <section class="news-section">
+        <div class="news-content">
+            <h2 class="section-title">Latest News</h2>
+            <div class="news-grid">
+
+                <div class="container">
+                    <!-- Premium Section (Left) -->
+                    <div class="premium-section">
+                        <h2>Premium</h2>
+
+                        <div class="premium-article">
+                            <h3>Pushing welfare towards the States</h3>
+                            <p class="author">DIPA SINHA</p>
+                        </div>
+
+                        <div class="premium-article">
+                            <h3>Building on a tax gamble that did not pay off</h3>
+                            <p class="author">ROHIT AZAD, INDRANIL CHOWDHURY</p>
+                        </div>
+
+                        <div class="premium-article">
+                            <h3>Union Budget 2026 bets big on industrial growth</h3>
+                            <div class="author-with-image">
+                                <div class="author-image"></div>
+                                <p class="author">M. SURESH BABU</p>
+                            </div>
+                        </div>
+
+                        <div class="premium-article">
+                            <h3>Debating Union Budget 2026 as turning point or tinkering</h3>
+                            <div class="author-with-image">
+                                <div class="author-image"></div>
+                                <p class="author">R. NAGARAJ</p>
+                            </div>
+                        </div>
+
+                        <div class="premium-article">
+                            <h3>50 years ago, on this day, for the first time a government was dismissed in Tamil Nadu
+                            </h3>
+                            <p class="author">D. SURESH KUMAR</p>
+                        </div>
+                    </div>
+
+                    <!-- Live Section (Center) -->
+                    <div class="live-section">
+                        <div class="live-badge">LIVE</div>
+                        <h1>News for today </h1>
+                        <p class="subtitle">Rajya Sabha takes up Motion of Thanks to President's speech</p>
+                        <p class="source">THE HINDU BUREAU</p>
+
+                        <div class="main-image">
+                            <img src="images/1766290098_WhatsApp_Image_2025-12-15_at_08_07_25_871f23f6.jpg"
+                                alt="Parliament Session">
+                        </div>
+                    </div>
+
+                    <!-- Latest News Section (Right) -->
+                    <div class="latest-news-section">
+                        <h2>Latest News</h2>
+
+                        <div class="news-timeline">
+                            <div class="news-item">
+                                <p class="meta">13 mins ago - Cricket</p>
+                                <h3>PCB will follow Pakistan government decision on India boycott</h3>
+                            </div>
+
+                            <div class="news-item">
+                                <p class="meta">16 mins ago - Budget</p>
+                                <h3>India's Budget advances critical reforms across customs and strategic sectors that
+                                    boost investment: USISPF</h3>
+                            </div>
+
+                            <div class="news-item">
+                                <p class="meta">26 mins ago - Mumbai</p>
+                                <h3>AAIB says probe into VSR Ventures' plane crash in Sep 2023 in 'final stages'</h3>
+                            </div>
+
+                            <div class="news-item">
+                                <p class="meta">29 mins ago - World</p>
+                                <h3>China criticises Grammy Award for Dalai Lama</h3>
+                            </div>
+
+                            <div class="news-item">
+                                <p class="meta">30 mins ago - India</p>
+                                <h3>Mamata confronts cops deployed at Delhi's Banga Bhawan, claims SIR-affected families
+                                    'threatened'</h3>
+                            </div>
+                        </div>
+
+                        <p class="read-more">READ MORE STORIES</p>
+                    </div>
+                </div>
+
+
+                <!-- COMPONENT: Leadership -->
+                <section class="leadership">
+                    <div class="leadership-content">
+                        <h2 class="section-title">Our Leadership</h2>
+                        <div class="leadership-grid">
+                            <div class="leader-card">
+                                <img src="images/Ras_bihari.jpeg" alt="President" class="leader-image">
+                                <div class="leader-info">
+                                    <h3>Ras Bihari </h3>
+                                    <p>President</p>
+                                    <a href="president.php">View Profile →</a>
+                                </div>
+                            </div>
+                            <div class="leader-card">
+                                <img src="images/bbb.jpeg" alt="Secretary General" class="leader-image">
+                                <div class="leader-info">
+                                    <h3>Pradeep Tiwari</h3>
+                                    <p>Secretary General</p>
+                                    <a href="sec_gen.php">View Profile →</a>
+                                </div>
+                            </div>
+                            <div class="leader-card">
+                                <img src="images/Dr_Arvind_kumar.jpeg" alt="Treasurer" class="leader-image">
+                                <div class="leader-info">
+                                    <h3>Dr Arvind Kumar Singh</h3>
+                                    <p>Treasurer</p>
+                                    <a href="treasurer.php">View Profile →</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- COMPONENT: Features -->
+                <section class="features">
+                    <div class="features-content">
+                        <h2 class="section-title">What We Stand For</h2>
+                        <div class="features-grid">
+                            <div class="feature-card">
+                                <div class="feature-icon">⚖️</div>
+                                <h3>Press Freedom</h3>
+                                <p>Advocating for unrestricted access to information and the right of journalists to
+                                    report without fear or intimidation.</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">🛡️</div>
+                                <h3>Journalists' Rights</h3>
+                                <p>Protecting the rights, safety, and welfare of media professionals across India
+                                    through legal support and advocacy.</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">📖</div>
+                                <h3>Ethical Standards</h3>
+                                <p>Promoting the highest standards of journalistic ethics, accuracy, and professional
+                                    conduct in media.</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">🤝</div>
+                                <h3>Community Support</h3>
+                                <p>Building a strong network of journalists who support each other through training,
+                                    resources, and solidarity.</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">🌍</div>
+                                <h3>Global Collaboration</h3>
+                                <p>Working with international organizations like IFJ to strengthen press freedom
+                                    worldwide.</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">📢</div>
+                                <h3>Voice for Change</h3>
+                                <p>Speaking out against threats to journalism and working towards a more transparent,
+                                    accountable society.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+                <!-- COMPONENT: Zones -->
+                <section class="zones">
+                    <div class="zones-content">
+                        <div class="zones-grid">
+                            <a href="#" class="zone-card zone-east">
+                                <div class="zone-icon">✏️</div>
+                                <div class="zone-name">EAST ZONE</div>
+                            </a>
+                            <a href="#" class="zone-card zone-west">
+                                <div class="zone-icon">☝️</div>
+                                <div class="zone-name">WEST ZONE</div>
+                            </a>
+                            <a href="#" class="zone-card zone-south">
+                                <div class="zone-icon">💻</div>
+                                <div class="zone-name">SOUTH ZONE</div>
+                            </a>
+                            <a href="#" class="zone-card zone-north">
+                                <div class="zone-icon">🏔️</div>
+                                <div class="zone-name">NORTH ZONE</div>
+                            </a>
+                            <a href="#" class="zone-card zone-center">
+                                <div class="zone-icon">🔗</div>
+                                <div class="zone-name">CENTER ZONE</div>
+                            </a>
+                            </a>
+                            <a href="#" class="zone-card zone-center">
+                                <div class="zone-icon">🔗</div>
+                                <div class="zone-name">DELHI ZONE</div>
+                            </a>
+                            </a>
+                            <a href="#" class="zone-card zone-center">
+                                <div class="zone-icon">🔗</div>
+                                <div class="zone-name">NORTH EAST ZONE</div>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- COMPONENT: Content (Press Releases, Letters, Enquiry) -->
+                <section class="content-section">
+                    <div class="content-container">
+                        <div class="content-columns">
+                            <!-- Press Releases Column -->
+                            <div class="content-column">
+                                <div class="content-header">
+                                    <h2>PRESS RELEASES</h2>
+                                    <div class="content-nav">
+                                        <button class="nav-arrow" onclick="scrollContent('press', -1)">‹</button>
+                                        <button class="nav-arrow" onclick="scrollContent('press', 1)">›</button>
+                                    </div>
+                                </div>
+                                <div class="content-cards" id="press-cards">
+                                    <div class="content-card">
+                                        <div class="card-image">
+                                            <img src="images/1769686728679_image.png" alt="Press Release">
+                                            <div class="share-button">PRESS SHARE</div>
+                                        </div>
+                                        <div class="card-meta">
+                                            <span class="card-date">2025-07-14</span>
+                                            <span class="card-views">397</span>
+                                        </div>
+                                        <h3 class="card-title">Demand for Strong Action against Culprits Who Assaulted
+                                            Scribes in Madhya Pradesh</h3>
+                                        <div class="card-actions">
+                                            <a href="#" class="read-more">ALL PRESS RELEASES ›</a>
+                                            <a href="#" class="read-more">READ MORE ›</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Letters Column -->
+                            <div class="content-column">
+                                <div class="content-header">
+                                    <h2>LETTERS</h2>
+                                    <div class="content-nav">
+                                        <button class="nav-arrow" onclick="scrollContent('letters', -1)">‹</button>
+                                        <button class="nav-arrow" onclick="scrollContent('letters', 1)">›</button>
+                                    </div>
+                                </div>
+                                <div class="content-cards" id="letters-cards">
+                                    <div class="content-card">
+                                        <div class="card-image">
+                                            <img src="images/1769686728679_image.png" alt="Letter">
+                                            <div class="share-button share-letter">LETTER SHARE</div>
+                                        </div>
+                                        <div class="card-meta">
+                                            <span class="card-date">2020-07-15</span>
+                                            <span class="card-views">213</span>
+                                        </div>
+                                        <h3 class="card-title">Against Exploitation, Torture and Killing of Journalists
+                                        </h3>
+                                        <div class="card-actions">
+                                            <a href="#" class="read-more">ALL LETTERS ›</a>
+                                            <a href="#" class="read-more">READ MORE ›</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Enquiry Form Column -->
+                            <div class="enquiry-column">
+                                <div class="enquiry-form-wrapper">
+                                    <h2>ANY ENQUIRY / SUGGESTION</h2>
+                                    <p class="form-subtitle">National Union of Journalist (I)</p>
+
+                                    <form class="enquiry-form" onsubmit="return handleEnquiry(event)">
+                                        <div class="radio-group">
+                                            <label class="radio-label">
+                                                <input type="radio" name="type" value="enquiry" checked>
+                                                <span>Enquiry</span>
+                                            </label>
+                                            <label class="radio-label">
+                                                <input type="radio" name="type" value="suggestion">
+                                                <span>Suggestion</span>
+                                            </label>
+                                        </div>
+
+                                        <input type="text" placeholder="Enter Your name" required>
+                                        <input type="tel" placeholder="Enter Contact No" required>
+                                        <input type="email" placeholder="Enter Email ID" required>
+                                        <textarea placeholder="Enter Enquiry / Suggestion" rows="6" required></textarea>
+
+                                        <button type="submit" class="submit-button">Submit</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- COMPONENT: Media Gallery (matches Photo Gallery design) -->
+                <!-- COMPONENT: Media Gallery - HORIZONTAL SCROLLING (Replace lines 675-749 in index.html) -->
+                <!-- UPDATED VIDEO GALLERY SECTION - YouTube Style -->
+                <!-- <section class="media-gallery-section" id="media-gallery">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Media Gallery</h2>
+            <p class="section-subtitle">Watch our latest videos and event highlights</p>
+            <div class="header-accent"></div>
+        </div> -->
+        
+                <div class="video-gallery-block">
+                    <!-- Navigation Arrows -->
+                    <button class="gallery-nav-btn prev-btn" aria-label="Previous">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                    <button class="gallery-nav-btn next-btn" aria-label="Next">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+
+                    <!-- Video Container -->
+                    <div class="video-scroll-container">
+                        <div class="video-horizontal-grid">
+                            <!-- Video 1 -->
+                            <article class="video-item">
+                                <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID_1" target="_blank"
+                                    class="video-link">
+                                    <div class="video-thumbnail">
+                                        <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg"
+                                            alt="Press Freedom Day Celebrations 2024"
+                                            onerror="this.src='https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg'">
+                                        <div class="play-button">
+                                            <svg viewBox="0 0 68 48" width="68" height="48">
+                                                <path
+                                                    d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"
+                                                    fill="#f00"></path>
+                                                <path d="M 45,24 27,14 27,34" fill="#fff"></path>
+                                            </svg>
+                                        </div>
+                                        <div class="video-duration">24:28</div>
+                                    </div>
+                                    <div class="video-info">
+                                        <h4>Press Freedom Day Celebrations 2024</h4>
+                                        <p>NUJ India • 1.2K views • 3 days ago</p>
+                                    </div>
+                                </a>
+                            </article>
+
+                            <!-- Video 2 -->
+                            <article class="video-item">
+                                <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID_2" target="_blank"
+                                    class="video-link">
+                                    <div class="video-thumbnail">
+                                        <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg"
+                                            alt="Interview with President Ras Bihari"
+                                            onerror="this.src='https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg'">
+                                        <div class="play-button">
+                                            <svg viewBox="0 0 68 48" width="68" height="48">
+                                                <path
+                                                    d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"
+                                                    fill="#f00"></path>
+                                                <path d="M 45,24 27,14 27,34" fill="#fff"></path>
+                                            </svg>
+                                        </div>
+                                        <div class="video-duration">18:45</div>
+                                    </div>
+                                    <div class="video-info">
+                                        <h4>Interview with President Ras Bihari</h4>
+                                        <p>NUJ India • 856 views • 5 days ago</p>
+                                    </div>
+                                </a>
+                            </article>
+
+                            <!-- Video 3 -->
+                            <article class="video-item">
+                                <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID_3" target="_blank"
+                                    class="video-link">
+                                    <div class="video-thumbnail">
+                                        <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg"
+                                            alt="Digital Journalism Workshop"
+                                            onerror="this.src='https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg'">
+                                        <div class="play-button">
+                                            <svg viewBox="0 0 68 48" width="68" height="48">
+                                                <path
+                                                    d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"
+                                                    fill="#f00"></path>
+                                                <path d="M 45,24 27,14 27,34" fill="#fff"></path>
+                                            </svg>
+                                        </div>
+                                        <div class="video-duration">32:15</div>
+                                    </div>
+                                    <div class="video-info">
+                                        <h4>Digital Journalism Workshop</h4>
+                                        <p>NUJ India • 2.1K views • 1 week ago</p>
+                                    </div>
+                                </a>
+                            </article>
+
+                            <!-- Video 4 -->
+                            <article class="video-item">
+                                <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID_4" target="_blank"
+                                    class="video-link">
+                                    <div class="video-thumbnail">
+                                        <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg"
+                                            alt="IFJ Collaboration Meet"
+                                            onerror="this.src='https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg'">
+                                        <div class="play-button">
+                                            <svg viewBox="0 0 68 48" width="68" height="48">
+                                                <path
+                                                    d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"
+                                                    fill="#f00"></path>
+                                                <path d="M 45,24 27,14 27,34" fill="#fff"></path>
+                                            </svg>
+                                        </div>
+                                        <div class="video-duration">15:30</div>
+                                    </div>
+                                    <div class="video-info">
+                                        <h4>IFJ Collaboration Meet</h4>
+                                        <p>NUJ India • 543 views • 2 weeks ago</p>
+                                    </div>
+                                </a>
+                            </article>
+
+                            <!-- Video 5 -->
+                            <article class="video-item">
+                                <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID_5" target="_blank"
+                                    class="video-link">
+                                    <div class="video-thumbnail">
+                                        <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg"
+                                            alt="Regional Workshop 2024"
+                                            onerror="this.src='https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg'">
+                                        <div class="play-button">
+                                            <svg viewBox="0 0 68 48" width="68" height="48">
+                                                <path
+                                                    d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"
+                                                    fill="#f00"></path>
+                                                <path d="M 45,24 27,14 27,34" fill="#fff"></path>
+                                            </svg>
+                                        </div>
+                                        <div class="video-duration">20:10</div>
+                                    </div>
+                                    <div class="video-info">
+                                        <h4>Regional Workshop 2024</h4>
+                                        <p>NUJ India • 1.8K views • 3 weeks ago</p>
+                                    </div>
+                                </a>
+                            </article>
+
+                            <!-- Video 6 -->
+                            <article class="video-item">
+                                <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID_6" target="_blank"
+                                    class="video-link">
+                                    <div class="video-thumbnail">
+                                        <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg"
+                                            alt="Annual Conference Highlights"
+                                            onerror="this.src='https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg'">
+                                        <div class="play-button">
+                                            <svg viewBox="0 0 68 48" width="68" height="48">
+                                                <path
+                                                    d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"
+                                                    fill="#f00"></path>
+                                                <path d="M 45,24 27,14 27,34" fill="#fff"></path>
+                                            </svg>
+                                        </div>
+                                        <div class="video-duration">12:45</div>
+                                    </div>
+                                    <div class="video-info">
+                                        <h4>Annual Conference Highlights</h4>
+                                        <p>NUJ India • 967 views • 1 month ago</p>
+                                    </div>
+                                </a>
+                            </article>
+                        </div>
+                    </div>
+
+                    <a href="#media-gallery" class="gallery-view-all">View All Videos &rarr;</a>
+                </div>
+            </div>
+    </section>
+
+    <!-- COMPONENT: Photo Gallery (standalone section) -->
+    <section class="photo-gallery-section" id="photo-gallery">
+        <div class="photo-gallery-content">
+            <div class="section-header">
+                <h2 class="section-title">Photo Gallery</h2>
+                <p class="section-subtitle">Click any photo to view full screen</p>
+                <div class="header-accent"></div>
+            </div>
+            <div class="photo-clippings-gallery">
+                <div class="photo-grid">
+                    <div class="photo-item" role="button" tabindex="0"
+                        aria-label="View All India Media Meet full screen" onclick="openLightbox(0)"
+                        onkeydown="if(event.key==='Enter')openLightbox(0)">
+                        <img src="./images/1.jpeg" alt="All India Media Meet">
+                        <div class="photo-overlay">
+                            <span class="overlay-icon" aria-hidden="true">&#128269;</span>
+                            <span class="overlay-text">All India Media Meet</span>
+                            <span class="overlay-hint">Click to view full screen</span>
+                        </div>
+                    </div>
+                    <div class="photo-item" role="button" tabindex="0" aria-label="View Governor's Address full screen"
+                        onclick="openLightbox(1)" onkeydown="if(event.key==='Enter')openLightbox(1)">
+                        <img src="./images/2.jpeg" alt="Governor's Address">
+                        <div class="photo-overlay">
+                            <span class="overlay-icon" aria-hidden="true">&#128269;</span>
+                            <span class="overlay-text">Governor's Address</span>
+                            <span class="overlay-hint">Click to view full screen</span>
+                        </div>
+                    </div>
+                    <div class="photo-item" role="button" tabindex="0" aria-label="View Press Conference full screen"
+                        onclick="openLightbox(2)" onkeydown="if(event.key==='Enter')openLightbox(2)">
+                        <img src="./images/3.jpeg" alt="Press Conference">
+                        <div class="photo-overlay">
+                            <span class="overlay-icon" aria-hidden="true">&#128269;</span>
+                            <span class="overlay-text">Press Conference</span>
+                            <span class="overlay-hint">Click to view full screen</span>
+                        </div>
+                    </div>
+                    <div class="photo-item" role="button" tabindex="0" aria-label="View Leadership Summit full screen"
+                        onclick="openLightbox(3)" onkeydown="if(event.key==='Enter')openLightbox(3)">
+                        <img src="./images/4.jpeg" alt="Leadership Summit">
+                        <div class="photo-overlay">
+                            <span class="overlay-icon" aria-hidden="true">&#128269;</span>
+                            <span class="overlay-text">Leadership Summit</span>
+                            <span class="overlay-hint">Click to view full screen</span>
+                        </div>
+                    </div>
+                    <div class="photo-item" role="button" tabindex="0" aria-label="View Annual Convention full screen"
+                        onclick="openLightbox(4)" onkeydown="if(event.key==='Enter')openLightbox(4)">
+                        <img src="./images/5.jpeg" alt="Annual Convention">
+                        <div class="photo-overlay">
+                            <span class="overlay-icon" aria-hidden="true">&#128269;</span>
+                            <span class="overlay-text">Annual Convention</span>
+                            <span class="overlay-hint">Click to view full screen</span>
+                        </div>
+                    </div>
+                    <div class="photo-item" role="button" tabindex="0" aria-label="View Regional Workshop full screen"
+                        onclick="openLightbox(5)" onkeydown="if(event.key==='Enter')openLightbox(5)">
+                        <img src="./images/6.jpeg" alt="Regional Workshop">
+                        <div class="photo-overlay">
+                            <span class="overlay-icon" aria-hidden="true">&#128269;</span>
+                            <span class="overlay-text">Regional Workshop</span>
+                            <span class="overlay-hint">Click to view full screen</span>
+                        </div>
+                    </div>
+                </div>
+                <a href="#photo-gallery" class="gallery-view-all">View All Photos &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- COMPONENT: Lightbox (full-screen viewer) -->
+    <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+        <div class="lightbox-image-wrapper">
+            <img id="lightbox-image" src="" alt="Full screen image">
+        </div>
+        <button type="button" class="lightbox-close" onclick="closeLightbox()"
+            aria-label="Close full screen">&#10005;</button>
+        <button type="button" class="lightbox-prev" onclick="changeLightboxImage(-1)"
+            aria-label="Previous image">&#10094;</button>
+        <button type="button" class="lightbox-next" onclick="changeLightboxImage(1)"
+            aria-label="Next image">&#10095;</button>
+        <div id="lightbox-caption" class="lightbox-caption"></div>
+    </div>
+    <div class="gallery-container" id="media-clippings-gallery">
+        <div class="section-header">
+            <h2>Media Clippings</h2>
+        </div>
+        <div class="media-clippings-slider">
+            <button type="button" class="gallery-slider-btn gallery-slider-prev" aria-label="Previous">&#10094;</button>
+            <div class="gallery-slider-viewport">
+                <div class="gallery-slider-track">
+                    <!-- Gallery Items -->
+                    <div class="gallery-item">
+                        <img src="images/Media_clipping1.jpg" alt="dausa1">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>dausa1</h3>
+                                <p>National Union of Journalist (I)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/Media_clipping2.jpg"
+                            alt="Massive demonstration by journalists at Jantar Mantar">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>Massive demonstration by journalists at Jantar Mantar</h3>
+                                <p>National Union of Journalist (I)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/Media_clipping3.jpg" alt="NUJ Event">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>NUJ Event</h3>
+                                <p>National Union of Journalist (I)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/Media_clipping4.jpg" alt="NUJ Event">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>NUJ Event</h3>
+                                <p>National Union of Journalist (I)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/Media_clipping5.jpg" alt="NUJ Event">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>NUJ Event</h3>
+                                <p>National Union of Journalist (I)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/Media_clipping6.jpg" alt="Executive Meeting, Shravasti, UP">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>Executive Meeting, Shravasti, UP</h3>
+                                <p>National Union of Journalist (I)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/Media_clipping7.jpg" alt="PRG ON MAY DAY AT RANCHI JHARKHAND">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>PRG ON MAY DAY AT RANCHI JHARKHAND</h3>
+                                <p>National Union of Journalist (I)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/Media_clipping8.jpg" alt="March Event">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>March Event</h3>
+                                <p>National Union of Journalist (I)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/Media_clipping9.jpg" alt="NUJ(I) Executive Meeting Haridwar">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>NUJ(I) Executive Meeting Haridwar</h3>
+                                <p>National Union of Journalist (I)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/Media_clipping1.jpg" alt="NUJ(I) Executive Meeting Haridwar">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>NUJ(I) Executive Meeting Haridwar</h3>
+                                <p>National Union of Journalist (I)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/1766290098_WhatsApp_Image_2025-12-15_at_08_07_25_871f23f6.jpg" alt="NUJ Event">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>NUJ Event</h3>
+                                <p>National Union of Journalist (I)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/1766290098_WhatsApp_Image_2025-12-15_at_08_07_25_871f23f6.jpg"
+                            alt="Assam Unit met with Governor of Assam">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>Assam Unit met with Governor of Assam</h3>
+                                <p>National Union of Journalist (I)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/1766290098_WhatsApp_Image_2025-12-15_at_08_07_25_871f23f6.jpg" alt="NUJ Event">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>NUJ Event</h3>
+                                <p>National Union of Journalist (I)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/1766290098_WhatsApp_Image_2025-12-15_at_08_07_25_871f23f6.jpg"
+                            alt="Odisha Unit Biennial Conference">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>Odisha Unit Biennial Conference</h3>
+                                <p>National Union of Journalist (I)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/1766290098_WhatsApp_Image_2025-12-15_at_08_07_25_871f23f6.jpg"
+                            alt="JAAP ANNUAL CONVENTION VIJAYWADA 2019">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>JAAP ANNUAL CONVENTION VIJAYWADA 2019</h3>
+                                <p>National Union of Journalist (I)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/1766290098_WhatsApp_Image_2025-12-15_at_08_07_25_871f23f6.jpg" alt="NUJ Event">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>NUJ Event</h3>
+                                <p>National Union of Journalist (I)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/1766290098_WhatsApp_Image_2025-12-15_at_08_07_25_871f23f6.jpg" alt="NUJ Event">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>NUJ Event</h3>
+                                <p>National Union of Journalist (I)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/1766290098_WhatsApp_Image_2025-12-15_at_08_07_25_871f23f6.jpg"
+                            alt="Assam Unit GBM meeting 2019">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>Assam Unit GBM meeting 2019</h3>
+                                <p>National Union of Journalist (I)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/1766290098_WhatsApp_Image_2025-12-15_at_08_07_25_871f23f6.jpg"
+                            alt="Assam Unit GBM meeting 2019">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>Assam Unit GBM meeting 2019</h3>
+                                <p>National Union of Journalist (I)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/1766290098_WhatsApp_Image_2025-12-15_at_08_07_25_871f23f6.jpg"
+                            alt="पत्रकार परिवारों के 167 सदस्यों को महाकुंभ में स्नान">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>पत्रकार परिवारों के 167 सदस्यों को महाकुंभ में स्नान</h3>
+                                <p>National Union of Journalist (I)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/1766290098_WhatsApp_Image_2025-12-15_at_08_07_25_871f23f6.jpg"
+                            alt="पत्रकार परिवारों के 167 सदस्यों को महाकुंभ में स्नान">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>पत्रकार परिवारों के 167 सदस्यों को महाकुंभ में स्नान</h3>
+                                <p>National Union of Journalist (I)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/1766290098_WhatsApp_Image_2025-12-15_at_08_07_25_871f23f6.jpg"
+                            alt="Mr. Anand Rana - Press Council of India Member">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>Mr. Anand Rana - PCI Member</h3>
+                                <p>National Union of Journalist (I)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/1766290098_WhatsApp_Image_2025-12-15_at_08_07_25_871f23f6.jpg"
+                            alt="Mr. Anand Rana - Press Council of India Member">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>Mr. Anand Rana - PCI Member</h3>
+                                <p>National Union of Journalist (I)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/1766290098_WhatsApp_Image_2025-12-15_at_08_07_25_871f23f6.jpg"
+                            alt="RAS BIHARI AND PRASANNA MOHANTY ELECTED">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>President and Secretary General Election</h3>
+                                <p>National Union of Journalist (I)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/1766290098_WhatsApp_Image_2025-12-15_at_08_07_25_871f23f6.jpg"
+                            alt="Voter awareness rally in Lucknow">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>Voter Awareness Rally in Lucknow</h3>
+                                <p>National Union of Journalist (I)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/1766290098_WhatsApp_Image_2025-12-15_at_08_07_25_871f23f6.jpg"
+                            alt="OUJ Foundation day">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>OUJ Foundation Day</h3>
+                                <p>National Union of Journalist (I)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/1766290098_WhatsApp_Image_2025-12-15_at_08_07_25_871f23f6.jpg"
+                            alt="OUJ Foundation day">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>OUJ Foundation Day</h3>
+                                <p>National Union of Journalist (I)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/1766290098_WhatsApp_Image_2025-12-15_at_08_07_25_871f23f6.jpg"
+                            alt="OUJ Foundation day">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>OUJ Foundation Day</h3>
+                                <p>National Union of Journalist (I)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="gallery-slider-btn gallery-slider-next" aria-label="Next">&#10095;</button>
+        </div>
+        <div class="gallery-slider-dots" role="tablist"></div>
+    </div>
+
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <span class="prev">&#10094;</span>
+        <span class="next">&#10095;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div class="lightbox-caption"></div>
+    </div>
+
+    <script src="gallery-script.js"></script>
+    <!-- COMPONENT: Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li>
+                            <span>📍</span>
+                            <span>7, Jantar Mantar Road, Second Floor<br>New Delhi 110001</span>
+                        </li>
+                        <li>
+                            <span>📞</span>
+                            <span>+91 - 9548020874</span>
+                        </li>
+                        <li>
+                            <span>✉️</span>
+                            <a href="mailto:nuj@example.com">nuj@example.com</a>
+                        </li>
+                        <li>
+                            <span>🕐</span>
+                            <span>08:00 AM to 07:00 PM</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>State Units</h3>
+                    <ul>
+                        <li><a href="#">East Zone</a></li>
+                        <li><a href="#">West Zone</a></li>
+                        <li><a href="#">South Zone</a></li>
+                        <li><a href="#">North Zone</a></li>
+                        <li><a href="#">North East Zone</a></li>
+                        <li><a href="#">Delhi Zone</a></li>
+                        <li><a href="#">Central Zone</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Who We Are</h3>
+                    <ul>
+                        <li><a href="#">NUJ History</a></li>
+                        <li><a href="#">Office Bearers</a></li>
+                        <li><a href="#">Former Presidents</a></li>
+                        <li><a href="#">Former Secretary General</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter. We do not spam. We promise.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="example@email.com" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 National Union of Journalists (India). All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
